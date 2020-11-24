@@ -1,5 +1,5 @@
 package com.syntax.class12;
-class Circle {  // Save as "Circle.java"
+class Circle {  // Save as "Shape.java"
     // private instance variable, not accessible from outside this class
     public double radius;
     public String color;

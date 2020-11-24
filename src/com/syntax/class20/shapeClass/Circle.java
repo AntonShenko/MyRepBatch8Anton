@@ -2,12 +2,12 @@ package com.syntax.class20.shapeClass;
 
 public class Circle extends Shape {
 
-    Circle(double radius) {
+    Circle(int radius) {
         super(radius);
     }
 
     public void radiusCalc(){
-        System.out.println(super.rad()*super.rad()*piii());
+        System.out.println((super.radius*super.radius)*3.14);
     }
 
     public static void main(String[] args) {

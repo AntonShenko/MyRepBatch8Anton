@@ -1,18 +1,9 @@
 package com.syntax.class20.shapeClass;
 
 public class Shape {
-    private double radius;
-    private  double pi;
+    int radius;
 
-    Shape(double radius ){
+    Shape(int radius){
         this.radius = radius;
-        this.pi = 3.14;
-    }
-
-    double rad(){
-      return radius;
-    }
-    double piii(){
-        return pi;
     }
 }
