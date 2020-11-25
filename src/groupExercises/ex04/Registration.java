@@ -9,6 +9,7 @@ public class Registration {
         return email;
     }
 
+
     public void setEmail(String email) {
         if(email.contains("@yahoo.com"))
             this.email = email;
@@ -16,9 +17,11 @@ public class Registration {
             System.out.println("Wrong email!");
     }
 
+
     public String getUserName() {
         return userName;
     }
+
 
     public void setUserName(String userName) {
         if(userName.length() > 6)
@@ -27,9 +30,11 @@ public class Registration {
             System.out.println("You should put more then 6 characters!!!");
     }
 
+
     public String getPassword() {
         return password;
     }
+
 
     public void setPassword(String password) {
         if(userName == null) {
@@ -46,8 +51,8 @@ class Main{
     public static void main(String[] args) {
         Registration registration = new Registration();
         registration.setEmail("myemail@yahoo.com");
-        registration.setUserName("Anton");
-        registration.setPassword("pass123");
+        registration.setUserName("Antonio");
+        registration.setPassword("Antonio888");
 
 
     }

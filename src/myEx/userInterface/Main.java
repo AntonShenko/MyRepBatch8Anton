@@ -20,6 +20,7 @@ public class Main {
 class App extends Application implements EventHandler<ActionEvent> {
         TextField text;
         public void go (){
+
             launch();
         }
 
